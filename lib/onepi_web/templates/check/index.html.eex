@@ -10,7 +10,7 @@
   <div class="container">
 
   <div class="row">
-    <div class="column"><img width="50px" src="<%= Routes.static_path(@conn, "/images/Pi_logo.png") %>" alt="Pi Code Logo"/> </div>
+    <div class="column"><img width="50px" src="<%= Routes.static_path(@conn, "/images/pi_logo.png") %>" alt="Pi Code Logo"/> </div>
    </div>
   
   </div>
