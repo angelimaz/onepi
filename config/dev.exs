@@ -68,8 +68,8 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Configure your database
 config :onepi, Onepi.Repo,
-  username: "postgres",
-  password: "postgres",
-  database: "onepi_dev",
+  username: "onepi",
+  password: "1pi",
+  database: "onepi",
   hostname: "localhost",
   pool_size: 10
