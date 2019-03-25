@@ -1,0 +1,25 @@
+
+
+<div class="container">
+
+         
+  <p> Registered to the name: <%= @registration.name%></p>
+  <p><%= @count%> of
+  </div>
+
+  <div class="container">
+
+  <div class="row">
+    <div class="column"><img width="50px" src="<%= Routes.static_path(@conn, "/images/Pi_logo.png") %>" alt="Pi Code Logo"/> </div>
+   </div>
+  
+  </div>
+
+  <div class="row">
+    <div class="column"> <p> Registered to the name: <%= @registration.name%></p>
+  <p><%= @count%> of </p></div>
+  </div>
+
+</div>
+
+

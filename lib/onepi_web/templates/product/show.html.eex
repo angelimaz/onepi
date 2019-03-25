@@ -1,0 +1,33 @@
+<h1>Show Product</h1>
+
+<ul>
+
+  <li>
+    <strong>Picode:</strong>
+    <%= @product.picode %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @product.name %>
+  </li>
+
+  <li>
+    <strong>Colour:</strong>
+    <%= @product.colour %>
+  </li>
+
+  <li>
+    <strong>Image:</strong>
+    <%= @product.image %>
+  </li>
+
+  <li>
+    <strong>Blockchain:</strong>
+    <%= @product.blockchain_id %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.product_path(@conn, :edit, @product) %></span>
+<span><%= link "Back", to: Routes.product_path(@conn, :index) %></span>
