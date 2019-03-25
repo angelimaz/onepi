@@ -4,7 +4,6 @@
 
          
   <p> Registered to the name: <%= @registration.name%></p>
-  <p><%= @count%> of
   </div>
 
   <div class="container">
@@ -17,7 +16,7 @@
 
   <div class="row">
     <div class="column"> <p> Registered to the name: <%= @registration.name%></p>
-  <p><%= @count%> of </p></div>
+  <p><%= @count%> of 50</p></div>
   </div>
 
 </div>
