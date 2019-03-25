@@ -15,7 +15,6 @@
   </div>
 
   <div class="row">
-    <div class="column"> <p> Registered to the name: <%= @registration.name%></p>
   <p><%= @count%> of 50</p></div>
   </div>
 
